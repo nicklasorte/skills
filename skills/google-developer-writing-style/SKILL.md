@@ -33,3 +33,8 @@ Use when writing or editing technical documents, procedures, reports, explanator
 - Never remove necessary caveats to make a sentence shorter.
 - Do not present this skill as an official Google or NTIA policy.
 - For source-specific guidance, consult the current public [Google Developer Documentation Style Guide](https://developers.google.com/style) rather than assuming this summary reproduces every rule.
+
+## Coordinated skill handoffs
+Primary for editorial-only tasks. For domain-specific substance, defer to the appropriate specialist. Never change technical or regulatory meaning during style editing.
+
+For multi-skill requests, follow the central `skill-router` workflow and repository `AGENTS.md` instructions. The primary skill retains task ownership. Handoffs may use `contracts/handoff.schema.json` and findings may use `contracts/issue.schema.json`; these are optional portable formats, not official agency records. Include real source locations, version, unresolved issues, and already completed skills. A handoff is a recommendation to the host agent, not an executable skill call. Avoid circular calls and duplicate work.
