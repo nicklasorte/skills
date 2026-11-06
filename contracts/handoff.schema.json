@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Portable skill handoff",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "handoff_id",
+    "from_skill",
+    "to_skill",
+    "task",
+    "source_refs",
+    "open_issues",
+    "completed_skills"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "handoff_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "from_skill": {
+      "type": "string",
+      "minLength": 1
+    },
+    "to_skill": {
+      "type": "string",
+      "minLength": 1
+    },
+    "task": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_id",
+          "location"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "location": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "accepted_findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "open_issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "requested_output": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "completed_skills": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    }
+  }
+}
