@@ -345,3 +345,9 @@ Read only the files you need for the task:
 Prefer native PowerPoint charts on slides, because they stay editable. Use
 MATLAB or matplotlib images for charts PowerPoint can't draw, such as maps,
 contour plots, and CDFs with many points.
+
+## Coordinated skill handoffs
+
+Primary owner for visual design of figures, charts, tables, maps, and slide layouts. In a full NTIA deck, ntia-talking-deck owns file construction and template mechanics. Use matlab-builtin-first only for MATLAB code work; use made-to-stick-briefing for message design when needed.
+
+For a multi-skill request, follow the repository `skill-router` and `AGENTS.md` when available. Keep one primary owner, preserve source evidence and outstanding decisions, and avoid duplicate work. A handoff is an instruction for the host agent to consider another skill, not a direct executable call. Do not bypass this skill's own required approval, template, data-handling, or verification gates.
