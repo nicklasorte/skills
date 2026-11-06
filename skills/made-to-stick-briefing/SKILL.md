@@ -78,3 +78,9 @@ S_ U_ C_ C_ E_ S_
 ## Project-specific rules
 
 If the project has standing rules or constraints (in project files, prior decisions, or the user's instructions), apply them during the accuracy check. When a rule changes what can be shown, follow the rule rather than the pattern.
+
+## Coordinated skill handoffs
+
+Primary owner for briefing message and memorability, including critique without slide production. For an NTIA PowerPoint deliverable, ntia-talking-deck owns the file and slide-design owns visuals. Preserve this skill's approval gate and factual accuracy checks.
+
+For a multi-skill request, follow the repository `skill-router` and `AGENTS.md` when available. Keep one primary owner, preserve source evidence and outstanding decisions, and avoid duplicate work. A handoff is an instruction for the host agent to consider another skill, not a direct executable call. Do not bypass this skill's own required approval, template, data-handling, or verification gates.
