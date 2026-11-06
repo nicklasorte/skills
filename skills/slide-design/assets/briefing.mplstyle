@@ -1,0 +1,56 @@
+# NTIA briefing style for matplotlib: decluttered, mid gray plus light blue.
+# Use: plt.style.use("path/to/briefing.mplstyle")
+# Sizes assume a 6.5 in wide report figure. For slide images, scale fonts
+# so chart text is 16 pt at the size shown on the slide (NTIA label size).
+
+figure.figsize      : 6.5, 3.6
+figure.dpi          : 150
+savefig.dpi         : 300
+figure.constrained_layout.use : True
+# Don't crop with bbox tight: it changes the figure width. For horizontal bar
+# charts, call ax.grid(axis="x"); ax.grid(axis="y", visible=False) and
+# show the left spine as the zero baseline:
+# ax.spines["left"].set_visible(True); ax.spines["bottom"].set_visible(False)
+figure.facecolor    : white
+axes.facecolor      : white
+
+font.family         : serif
+font.serif          : Times New Roman, Times, Liberation Serif, DejaVu Serif
+font.size           : 10
+axes.titlesize      : 11
+axes.titleweight    : bold
+axes.titlelocation  : left
+axes.labelsize      : 9
+xtick.labelsize     : 9
+ytick.labelsize     : 9
+
+text.color          : 163353
+axes.labelcolor     : 163353
+xtick.color         : 163353
+ytick.color         : 163353
+
+axes.spines.top     : False
+axes.spines.right   : False
+axes.spines.left    : False
+axes.edgecolor      : 8A8D91
+axes.linewidth      : 0.75
+
+axes.grid           : True
+axes.grid.axis      : y
+grid.color          : E6E6E6
+grid.linewidth      : 0.75
+axes.axisbelow      : True
+
+xtick.direction     : out
+ytick.direction     : out
+xtick.major.size    : 0
+ytick.major.size    : 0
+
+lines.linewidth     : 2
+lines.markersize    : 5
+legend.frameon      : False
+
+# NTIA order: light blue (highlight), mid gray (context), purple (second
+# highlight), dark blue. Set colors per series for gray-plus-highlight.
+axes.prop_cycle     : cycler('color', ['5674C4', '8A8D91', '6E4F92', '163353'])
+image.cmap          : cividis

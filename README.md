@@ -15,6 +15,15 @@ Portable, independent AI-agent skills for spectrum engineering, regulatory writi
 | [MATLAB2Paper](skills/matlab2paper/SKILL.md) | Reproducible analysis-to-paper traceability |
 | [Google Developer Writing Style](skills/google-developer-writing-style/SKILL.md) | Clear, concise, audience-first technical and regulatory writing |
 | [Skill Router](skills/skill-router/SKILL.md) | Coordinate conditional handoffs across specialist skills |
+| [NTIA Policy Research](skills/ntia-policy-research/SKILL.md) | Policy briefs, decision memos, regulation summaries, and rule reviews |
+| [NTIA FCC Filing Voice](skills/ntia-fcc-filing-voice/SKILL.md) | Draft and review NTIA filings to the FCC in NTIA's voice |
+| [NTIA Talking Deck](skills/ntia-talking-deck/SKILL.md) | Short talking decks for non-technical audiences |
+| [Slide Design](skills/slide-design/SKILL.md) | Slide, chart, map, and table design rules for briefings |
+| [Made to Stick Briefing](skills/made-to-stick-briefing/SKILL.md) | Turn technical analysis into briefings non-experts remember |
+| [MATLAB Built-in First](skills/matlab-builtin-first/SKILL.md) | Prefer verified built-in MATLAB functions over custom code |
+| [Oxford Tutorial Lessons](skills/oxford-tutorial-lessons/SKILL.md) | Weekly question, short paper, and Socratic review format |
+| [STE100 Writing](skills/ste100-writing/SKILL.md) | Write and audit ASD-STE100 Simplified Technical English |
+| [Google Dev Docs Style](skills/google-dev-docs-style/SKILL.md) | Apply the Google developer documentation style guide |
 
 ## Structure
 
