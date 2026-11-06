@@ -14,10 +14,27 @@ Portable, independent AI-agent skills for spectrum engineering, regulatory writi
 | [NTIA-Filing](skills/ntia-filing/SKILL.md) | FCC filing preparation and validation |
 | [MATLAB2Paper](skills/matlab2paper/SKILL.md) | Reproducible analysis-to-paper traceability |
 | [Google Developer Writing Style](skills/google-developer-writing-style/SKILL.md) | Clear, concise, audience-first technical and regulatory writing |
+| [Skill Router](skills/skill-router/SKILL.md) | Coordinate conditional handoffs across specialist skills |
 
 ## Structure
 
 Each skill lives at `skills/<skill-name>/SKILL.md` with YAML `name` and `description` frontmatter. Optional `references/`, `scripts/`, and `assets/` belong within the corresponding skill directory. Keep each skill independent and avoid duplicating project-owned code.
+
+## Coordinated multi-skill workflows
+
+This repository supports **one primary task owner with conditional specialist handoffs**. See [Skill Router](skills/skill-router/SKILL.md) and [AGENTS.md](AGENTS.md). Portable data formats are in [handoff.schema.json](contracts/handoff.schema.json) and [issue.schema.json](contracts/issue.schema.json).
+
+A skill's handoff instruction is **not an executable call**. The Copilot agent must choose and run the relevant specialist in a supported environment. Do not assume a quality gate, filing, or external action ran automatically.
+
+### Install coordination in a coworker's project
+
+1. Install desired specialist folders under the **target project's** `.github/skills/` as described below.
+2. Also copy `skills/skill-router/` into that project's `.github/skills/`.
+3. Copy this repository's root `AGENTS.md` to the **root of the target project**. If that project already has an `AGENTS.md`, merge the routing instructions rather than overwrite existing rules.
+4. The JSON contracts are optional for ordinary conversational tasks. Copy `contracts/` into the project only when structured handoff files are needed, and adjust contract paths if the project uses a different layout.
+5. Open Copilot Chat in Agent mode and try: **“Use the skill-router to review this technical report, use MATLAB2Paper only if code-to-report traceability is needed, and return one consolidated issue register.”**
+
+Project instructions must be discoverable by the coworker's Copilot environment. Simply cloning this skills repository does not install its instructions into another project. Confirm actual skill loading and results; behavior varies by product/version.
 
 ## Install in GitHub Copilot (VS Code)
 
