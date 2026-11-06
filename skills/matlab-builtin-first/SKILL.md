@@ -110,3 +110,8 @@ Only when the user asks for speed, or the code will run over large data. Don't r
 ## Reply format
 
 Lead with the file. Then at most three lines: what the function does, the run result (including the parallel and multi-server results when they ran), and any built-in you chose over an alternative. No preamble.
+## Coordinated skill handoffs
+
+Primary owner for MATLAB implementation or changes. Hand off analysis-to-manuscript traceability to matlab2paper only when the user requests a report or paper. Do not claim toolboxes, MATLAB execution, or tests were verified without actual evidence.
+
+For a multi-skill request, follow the repository `skill-router` and `AGENTS.md` when available. Keep one primary owner, preserve source evidence and outstanding decisions, and avoid duplicate work. A handoff is an instruction for the host agent to consider another skill, not a direct executable call. Do not bypass this skill's own required approval, template, data-handling, or verification gates.
