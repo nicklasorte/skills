@@ -251,3 +251,9 @@ Each main slide gets notes of about 60-120 words, in this order:
 ## Revisions
 
 When the user asks for changes after delivery, edit only the affected slides, keep the rest unchanged, and re-run QA on the changed slides. Don't regenerate the whole deck unless the user asks.
+
+## Coordinated skill handoffs
+
+Primary owner for an NTIA .pptx talking deck. Use made-to-stick-briefing for message planning, slide-design for visual design, google-developer-writing-style for prose, and the approved PPTX tool for construction. Preserve the template binary and explicit confirmation gates; do not build off-template.
+
+For a multi-skill request, follow the repository `skill-router` and `AGENTS.md` when available. Keep one primary owner, preserve source evidence and outstanding decisions, and avoid duplicate work. A handoff is an instruction for the host agent to consider another skill, not a direct executable call. Do not bypass this skill's own required approval, template, data-handling, or verification gates.
