@@ -37,3 +37,8 @@ The original matrix is authoritative. Common canonical 13-column layout: Comment
 Module-first: keep schemas and validation logic in the existing spectrum-systems monorepo; reuse the comment-resolution-engine interfaces rather than create a parallel canonical contract. This portable skill contains operational instructions, not a copy of proprietary report data or a standalone engine.
 
 See `references/quality-checklist.md` and `references/example.md`.
+
+## Coordinated skill handoffs
+Primary for an agency comment matrix. Hand off cross-document technical findings to ntia-review; do not replace or duplicate the matrix. Use the quality gate only for an explicitly requested readiness assessment.
+
+For multi-skill requests, follow the central `skill-router` workflow and repository `AGENTS.md` instructions. The primary skill retains task ownership. Handoffs may use `contracts/handoff.schema.json` and findings may use `contracts/issue.schema.json`; these are optional portable formats, not official agency records. Include real source locations, version, unresolved issues, and already completed skills. A handoff is a recommendation to the host agent, not an executable skill call. Avoid circular calls and duplicate work.
