@@ -128,3 +128,8 @@ Run this checklist. Fix each item.
 ## Disclaimer
 
 This skill is an unofficial aid. ASD and the STEMG don't affiliate with or endorse it. No tool can certify STE compliance.
+## Coordinated skill handoffs
+
+Primary owner when ASD-STE100 or controlled-language drafting/audit is requested. Its language rules override Google Developer Writing Style on conflicts. Do not claim official STE compliance without the authoritative standard and a supported verification process.
+
+For a multi-skill request, follow the repository `skill-router` and `AGENTS.md` when available. Keep one primary owner, preserve source evidence and outstanding decisions, and avoid duplicate work. A handoff is an instruction for the host agent to consider another skill, not a direct executable call. Do not bypass this skill's own required approval, template, data-handling, or verification gates.
