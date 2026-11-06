@@ -13,6 +13,7 @@ Portable, independent AI-agent skills for spectrum engineering, regulatory writi
 | [NTIA Quality Gate](skills/ntia-quality-gate/SKILL.md) | Advisory readiness checks |
 | [NTIA-Filing](skills/ntia-filing/SKILL.md) | FCC filing preparation and validation |
 | [MATLAB2Paper](skills/matlab2paper/SKILL.md) | Reproducible analysis-to-paper traceability |
+| [Google Developer Writing Style](skills/google-developer-writing-style/SKILL.md) | Clear, concise, audience-first technical and regulatory writing |
 
 ## Structure
 
