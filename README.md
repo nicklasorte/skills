@@ -1,43 +1,39 @@
 # Skills
 
-Reusable AI-agent skills maintained as independent, portable directories.
+Portable, independent AI-agent skills for spectrum engineering, regulatory writing, review, and meeting workflows.
 
-## Skill catalog
+## Catalog
 
-| Skill | Purpose |
+| Skill | Use |
 | --- | --- |
-| [Comment Resolution](skills/comment-resolution/SKILL.md) | Resolve agency comments against a report, prepare dispositions and report-ready edits, and validate a comment resolution matrix. |
+| [Comment Resolution](skills/comment-resolution/SKILL.md) | Agency comment adjudication and report-ready changes |
+| [NTIA Policy](skills/ntia-policy/SKILL.md) | Policy and regulatory research and drafting |
+| [NTIA-Review](skills/ntia-review/SKILL.md) | Evidence-traceable technical and policy reviews |
+| [NTIA-Meeting](skills/ntia-meeting/SKILL.md) | Minutes, decisions, actions, and handoffs |
+| [NTIA Quality Gate](skills/ntia-quality-gate/SKILL.md) | Advisory readiness checks |
+| [NTIA-Filing](skills/ntia-filing/SKILL.md) | FCC filing preparation and validation |
+| [MATLAB2Paper](skills/matlab2paper/SKILL.md) | Reproducible analysis-to-paper traceability |
 
-## Repository layout
+## Structure
 
-Each skill lives in `skills/<skill-name>/` and has a `SKILL.md` with YAML frontmatter (`name` and `description`). Optional supporting content belongs in `references/`, `scripts/`, or `assets/` inside that skill's directory.
+Each skill lives at `skills/<skill-name>/SKILL.md` with YAML `name` and `description` frontmatter. Optional `references/`, `scripts/`, and `assets/` belong within the corresponding skill directory. Keep each skill independent and avoid duplicating project-owned code.
 
-```text
-skills/
-├── README.md
-└── skills/
-    └── comment-resolution/
-        ├── SKILL.md
-        └── references/
-            ├── example.md
-            └── quality-checklist.md
-```
+## Installation and use
 
-## Use a skill
+Copy the desired skill directory into the skills location supported by your AI agent, or supply its `SKILL.md` as instructions. A GitHub URL does not automatically install skills in every ChatGPT environment.
 
-Copy the desired `skills/<skill-name>/` directory into the skills directory supported by your AI agent, or provide its `SKILL.md` as instructions. Installation and automatic discovery depend on the host product; a GitHub URL alone does not install a skill in every ChatGPT client.
+Provide the source documents, exact versions, and task-specific evidence when using these workflows. Outputs are drafts or advisory assessments, not institutional decisions.
 
-For the Comment Resolution skill, provide the original Excel comment resolution matrix and the matching report PDF. The skill describes a workflow, not an executable workbook engine.
+## Publication status
 
-## Contributing a new skill
+- NTIA-Review, NTIA-Meeting, and NTIA Quality Gate are **public standalone adaptations** of existing installed workflows. They do not contain the original installed suite's schemas, scripts, or integration files.
+- NTIA Policy, NTIA-Filing, and MATLAB2Paper are **initial public skill definitions** and should be extended and tested against approved examples before production use.
+- Comment Resolution is a portable instruction workflow, not an executable workbook engine.
 
-1. Add `skills/<kebab-case-name>/SKILL.md` with `name` and `description` frontmatter.
-2. Put optional examples and checklists in `references/`; executable helpers in `scripts/`; static resources in `assets/`.
-3. Update the catalog above.
-4. Validate paths, links, instructions, and sample inputs. Never commit agency-sensitive documents, credentials, or private data.
+## Contributing
 
-Keep each skill self-contained. Shared business logic and schemas should remain in their owning project rather than be duplicated here.
+Add `skills/<kebab-case-name>/SKILL.md`, keep its dependencies documented, and update this catalog. Check instructions, links, and sample artifacts. Do not commit credentials, private documents, agency-sensitive material, or controlled technical data.
 
 ## Disclaimer
 
-These are operational instructions, not official NTIA policy or approved agency determinations. Technical and regulatory decisions require verification against authoritative sources and applicable approval processes.
+This is a personal collection of workflows, not an official NTIA publication or statement of agency policy. Follow applicable information-handling, review, and clearance requirements before distributing material.
