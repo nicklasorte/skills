@@ -19,6 +19,28 @@ Identify the user's decision or deliverable, available sources, authorized actio
 | Editing/style | google-developer-writing-style | domain specialist only if substantive verification is requested |
 | Explicit readiness assessment | ntia-quality-gate | relevant domain specialist for evidence gathering |
 
+## Expanded routing: communication, code, and learning
+
+| Intent | Primary owner | Conditional supporting skills |
+| --- | --- | --- |
+| Build NTIA PowerPoint talking deck | ntia-talking-deck | made-to-stick-briefing for message, slide-design for visuals, google-developer-writing-style for prose, and authorized PPTX tooling for file production |
+| Critique or plan a memorable briefing without building slides | made-to-stick-briefing | slide-design only when evaluating actual visuals |
+| Design/revise chart, figure, map, table, diagram, or slide visuals | slide-design | matlab-builtin-first only when producing MATLAB plotting code; ntia-talking-deck when building an NTIA deck |
+| Produce or modify MATLAB code | matlab-builtin-first | matlab2paper only for requested code-to-report traceability |
+| Convert MATLAB results into a technical paper | matlab2paper | matlab-builtin-first only if code must be written, changed, or run |
+| Design weekly technical lessons, learner assignments, or mentor guides | oxford-tutorial-lessons | matlab-builtin-first only when producing or testing MATLAB code; google-developer-writing-style for prose |
+| Write or audit ASD-STE100 controlled language | ste100-writing | google-developer-writing-style for nonconflicting formatting only |
+| General technical writing or copyediting | google-developer-writing-style | ste100-writing only when controlled language is explicitly requested or necessary for the specified procedure |
+
+## Ownership and precedence
+
+- **Deliverable owner wins:** ntia-talking-deck owns the deck file and template mechanics; made-to-stick-briefing owns briefing message and accuracy of memorable framing; slide-design owns chart and visual presentation; matlab-builtin-first owns MATLAB code choices; matlab2paper owns code-to-paper traceability; oxford-tutorial-lessons owns the training format; ste100-writing owns controlled-language constraints.
+- **Specific rules override general style:** STE100 governs requested controlled-language text over Google style. NTIA template/brand and filing conventions override generic visual or writing preferences where they apply. Substantive technical and legal accuracy outrank all style rules.
+- **Don't widen a request:** a deck critique is not permission to build a PPTX; a figure request is not a deck request; code review is not automatically a paper rewrite; training design is not authorization to run MATLAB.
+- **Preserve specialist gates:** do not bypass a skill's required template, source clearance, confirmation, dependency, or verification step. If a required asset or approved environment is missing, report the blocker; do not invent a substitute.
+- **No implicit compliance certification:** applying STE-inspired rules is not proof of ASD-STE100 compliance; quality-gate readiness is not official NTIA clearance. Never claim MATLAB was run without execution evidence.
+- **No circular chains:** specialist suggestions return to the primary owner for reconciliation. A specialist may not independently trigger another specialist and then route back to itself.
+
 ## Execution protocol
 1. Write a brief plan: primary owner, optional specialists, artifacts, and stop condition.
 2. Execute the primary workflow against actual accessible sources.
