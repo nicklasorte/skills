@@ -191,3 +191,8 @@ Score each criterion 1 to 4 for the learner's own tracking. The scores don't gra
 - St Hugh's College. Studying at Oxford 2023-24. https://www.st-hughs.ox.ac.uk/wp-content/uploads/2023/08/Studying-at-Oxford-2023-24-1.pdf
 - TutorChase. The Oxbridge tutorial system explained. https://www.tutorchase.com/blog/the-oxbridge-tutorial-system-explained
 - Engineering Tutorials (CCCU GlobalEd, Oxford program guide). https://cccuglobaled.org/wp-content/uploads/2020/12/Engineering-Tutorials.pdf
+## Coordinated skill handoffs
+
+Primary owner for tutorial curricula, weekly learner assignments, and mentor guides. Use matlab-builtin-first only for actual code generation or testing; use Google Developer Writing Style for compatible prose rules. Keep mentor-only content separate from learner deliverables.
+
+For a multi-skill request, follow the repository `skill-router` and `AGENTS.md` when available. Keep one primary owner, preserve source evidence and outstanding decisions, and avoid duplicate work. A handoff is an instruction for the host agent to consider another skill, not a direct executable call. Do not bypass this skill's own required approval, template, data-handling, or verification gates.
