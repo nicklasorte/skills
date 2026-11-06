@@ -35,3 +35,8 @@ Check each decision and action against its source, test owner and deadline attri
 
 ## Public distribution note
 This public edition is a standalone instructional workflow. It does not bundle the original installed suite's machine-readable schemas, validation scripts, internal integrations, or any agency materials. Do not claim automated validation or official clearance.
+
+## Coordinated skill handoffs
+Primary for meeting records. Record proposed review/study tasks as handoffs, not as meeting decisions or assigned commitments.
+
+For multi-skill requests, follow the central `skill-router` workflow and repository `AGENTS.md` instructions. The primary skill retains task ownership. Handoffs may use `contracts/handoff.schema.json` and findings may use `contracts/issue.schema.json`; these are optional portable formats, not official agency records. Include real source locations, version, unresolved issues, and already completed skills. A handoff is a recommendation to the host agent, not an executable skill call. Avoid circular calls and duplicate work.
