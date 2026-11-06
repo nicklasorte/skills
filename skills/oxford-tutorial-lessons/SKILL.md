@@ -1,6 +1,6 @@
 ---
 name: "oxford-tutorial-lessons"
-description: "Formats technical lessons as Oxford-style tutorials: one weekly question, a short paper plus MATLAB code, and a Socratic review. Use when writing, planning, or reformatting any lesson, weekly question, tutorial paper, or mentor guide in Nick's training series, or when he asks for next week's lesson. Do not use for general MATLAB coding help; use matlab-builtin-first."
+description: "Formats technical lessons as Oxford-style tutorials: one weekly question, a short paper plus MATLAB code, and a Socratic review. Use when writing, planning, or reformatting any lesson, weekly question, tutorial paper, or mentor guide in a training series, or when the user asks for next week's lesson. Do not use for general MATLAB coding help; use matlab-builtin-first."
 ---
 
 # Oxford tutorial lesson framework
@@ -168,7 +168,7 @@ Score each criterion 1 to 4 for the learner's own tracking. The scores don't gra
 3. Turn the exercise into the MATLAB assignment: state the task, the outputs, and the requirements. Move any existing steps, function names, and code snippets into the reference solution outline in the mentor guide.
 4. Point the paper at the question and at the code's outputs.
 5. Write the tutorial guide last, including the reference solution outline and code review questions.
-6. Show the reformatted lesson to Nick for confirmation before applying the format to the rest of the series.
+6. Show the reformatted lesson to the user for confirmation before applying the format to the rest of the series.
 
 ## Example: Week 1 for the 2.7 GHz radar retuning series
 

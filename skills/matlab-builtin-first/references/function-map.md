@@ -1,6 +1,6 @@
 # Task-to-function map
 
-Candidate built-ins for the steps that recur in Nick's work. Verify each one with `which -all` and `help` before use; names and arguments change between releases. Organized by the MathWorks documentation categories.
+Candidate built-ins for the steps that recur in spectrum, geospatial, and simulation work. Verify each one with `which -all` and `help` before use; names and arguments change between releases. Organized by the MathWorks documentation categories.
 
 ## Contents
 
@@ -145,8 +145,8 @@ Candidate built-ins for the steps that recur in Nick's work. Verify each one wit
 | Eigen and singular values | `eig`, `eigs`, `svd`, `svds` | `eigs`/`svds` for a few values of a large sparse matrix. |
 | ODEs | `ode45` (nonstiff), `ode15s` (stiff), `odeset` | Set `RelTol` and `AbsTol` explicitly. |
 | Integration | `integral`, `trapz`, `cumtrapz` | `trapz` for sampled data. |
-| Minimum, no toolbox | `fminsearch` (multivariable), `fminbnd` (one variable on an interval), `fzero` (root) | Base MATLAB; these run on Nick's machine. |
-| Constrained minimum | `fmincon`, `linprog`, `intlinprog`, `quadprog`, `lsqnonlin`, `fminunc` | Optimization Toolbox, **not installed**: they fail with a license error. Use `fminsearch` with a penalty or bound transform, or ask Nick. |
+| Minimum, no toolbox | `fminsearch` (multivariable), `fminbnd` (one variable on an interval), `fzero` (root) | Base MATLAB; these need no extra toolbox. |
+| Constrained minimum | `fmincon`, `linprog`, `intlinprog`, `quadprog`, `lsqnonlin`, `fminunc` | Optimization Toolbox, which may not be installed: they fail with a license error when it's missing. Use `fminsearch` with a penalty or bound transform, or ask the user. |
 | Global search | `ga`, `particleswarm`, `GlobalSearch`, `MultiStart` | Global Optimization Toolbox, **not installed**. |
 | Float comparison | `ismembertol`, `uniquetol` | Not `==` or `eps` on computed values. |
 

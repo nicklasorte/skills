@@ -44,7 +44,7 @@ Photos show real people and real technology at NTIA touchpoints: bright and real
 
 The brand voice is a sage: evidence-based, objective, analytical, and plain. Good tone words: *analysis*, *data*, *evidence*, *guidance*, *research*, *counsel*, *convene*. Use them as a tone check, not as slogans.
 
-The brand book's secondary "ruler" archetype says NTIA speaks for the administration. The policy-neutrality rule in step 3 still wins: stay administration-neutral unless Nick supplies the framing and asks.
+The brand book's secondary "ruler" archetype says NTIA speaks for the administration. The policy-neutrality rule in step 3 still wins: stay administration-neutral unless the user supplies the framing and asks.
 
 ### NTIA writing conventions
 

@@ -1,6 +1,6 @@
 ---
 name: "ntia-talking-deck"
-description: "Turns Nick's document, notes, or thoughts into a short NTIA-template PowerPoint (.pptx) talking deck for non-technical audiences, with native charts, minimal text, and the NTIA brand and style guide applied. Use when Nick asks for a deck, slides, a briefing deck, or talking slides for NTIA leadership or political appointees, or asks to turn a memo or analysis into slides. Do not use to critique a deck's message without building one (use made-to-stick-briefing) or for decks outside NTIA."
+description: "Turns the user's document, notes, or thoughts into a short NTIA-template PowerPoint (.pptx) talking deck for non-technical audiences, with native charts, minimal text, and the NTIA brand and style guide applied. Use when the user asks for a deck, slides, a briefing deck, or talking slides for NTIA leadership or political appointees, or asks to turn a memo or analysis into slides. Do not use to critique a deck's message without building one (use made-to-stick-briefing) or for decks outside NTIA."
 ---
 
 # NTIA talking deck
@@ -45,7 +45,7 @@ The deck must be built from the binary .pptx, not its extracted text. Look in th
 2. A copy already saved in the working directory from earlier in this session.
 3. The project file `DOC NTIA_Style Guide July 2026.pptx`, through `Projects` `project_read`. If the read returns only text, the binary isn't available from the project.
 
-If you can't get the binary, tell Nick in one sentence and ask him to attach `DOC NTIA_Style Guide July 2026.pptx` to a message. Stop at the confirmation gate until he does. Never build the deck off-template.
+If you can't get the binary, tell the user in one sentence and ask the user to attach `DOC NTIA_Style Guide July 2026.pptx` to a message. Stop at the confirmation gate until they do. Never build the deck off-template.
 
 ### Map the template (first run only)
 
@@ -77,7 +77,7 @@ On later runs, read `claude/ntia-template-map.md` instead of re-inventorying. If
 
 ## Workflow
 
-Follow these steps in order. Nick's source material is the authority on facts.
+Follow these steps in order. The user's source material is the authority on facts.
 
 ### 1. Intake
 
@@ -93,10 +93,10 @@ Read the source. Identify:
 
 Confirm both points before you read the source in depth:
 
-1. **Clearance.** The source is public (Federal Register, CFR, FCC EDOCS or ECFS, ntia.gov, or the NTIA Manual), or Nick has said it's cleared for this environment.
+1. **Clearance.** The source is public (Federal Register, CFR, FCC EDOCS or ECFS, ntia.gov, or the NTIA Manual), or the user has said it's cleared for this environment.
 2. **No sensitive content.** The source has no classification markings, no controlled unclassified information (CUI) markings, and no nonpublic federal system parameters, site locations, or operating schedules.
 
-If either point fails, stop. Tell Nick which point failed and what you saw. Don't summarize, quote, or chart the material. For coordination zones and federal sites, show only the precision that public sources already show.
+If either point fails, stop. Tell the user which point failed and what you saw. Don't summarize, quote, or chart the material. For coordination zones and federal sites, show only the precision that public sources already show.
 
 #### Inputs from other skills
 
@@ -128,7 +128,7 @@ For a decision deck, follow the same order as the `ntia-policy` decision memo:
 3. Background, in plain terms
 4. Federal equities: affected agencies, systems, or bands, from public sources only
 5. Options: two to four mutually exclusive options, including "no action" or "retain the current rule" when it's viable
-6. Recommendation, only if Nick supplied one or asked for one; otherwise `[CONFIRM: recommendation]`
+6. Recommendation, only if the user supplied one or asked for one; otherwise `[CONFIRM: recommendation]`
 7. The ask: what, who, and by when
 8. Appendix: supporting tables, such as a per-area results table, and method
 
@@ -143,16 +143,16 @@ Run the Made to Stick accuracy check before showing the outline:
 - Label invented examples, sample values, and schematic curves as "Illustration."
 - If a sticky framing conflicts with the analysis, the analysis wins.
 - Never invent a citation, docket number, dollar figure, or date. Put `[CITE: <what's needed>]` or `[CONFIRM: <what's needed>]` in the speaker notes and list each one as an open question.
-- Flag every statement of another agency's position, such as DoD, FAA, or NOAA. State it only if Nick supplied it and it was coordinated.
+- Flag every statement of another agency's position, such as DoD, FAA, or NOAA. State it only if the user supplied it and it was coordinated.
 
 #### Policy neutrality
 
 - Separate technical findings from policy judgment. Present options and tradeoffs; label which calls belong to the principal.
-- Stay administration-neutral. Don't name the President, the administration, or administration-branded initiatives or slogans unless Nick supplies them and asks. Frame benefits in durable terms: consumers, innovation, economic growth, national security, public safety, and scientific research.
+- Stay administration-neutral. Don't name the President, the administration, or administration-branded initiatives or slogans unless the user supplies them and asks. Frame benefits in durable terms: consumers, innovation, economic growth, national security, public safety, and scientific research.
 
 ### 4. Confirmation gate
 
-Present the canvas summary, the outline table, the accuracy check, and the open questions (GAPs). **Stop and wait for Nick's approval.** Don't build slides until he approves or revises the outline and the template binary is in hand.
+Present the canvas summary, the outline table, the accuracy check, and the open questions (GAPs). **Stop and wait for the user's approval.** Don't build slides until the user approves or revises the outline and the template binary is in hand.
 
 ### 5. Build
 
@@ -245,9 +245,9 @@ Each main slide gets notes of about 60-120 words, in this order:
 ## Markings and accessibility
 
 - Every evidence slide gets a source line.
-- Internal decks carry "PRE-DECISIONAL" in the footer of every slide, and the title slide notes say "Prepared with AI assistance." Remove the marking only when Nick says the deck is final or public.
+- Internal decks carry "PRE-DECISIONAL" in the footer of every slide, and the title slide notes say "Prepared with AI assistance." Remove the marking only when the user says the deck is final or public.
 - Alt text on every chart, picture, icon group, and diagram; 4.5:1 minimum text contrast; 3:1 for large text, icons, and chart elements.
 
 ## Revisions
 
-When Nick asks for changes after delivery, edit only the affected slides, keep the rest unchanged, and re-run QA on the changed slides. Don't regenerate the whole deck unless he asks.
+When the user asks for changes after delivery, edit only the affected slides, keep the rest unchanged, and re-run QA on the changed slides. Don't regenerate the whole deck unless the user asks.

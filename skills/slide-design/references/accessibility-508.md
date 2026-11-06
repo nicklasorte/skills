@@ -3,7 +3,7 @@
 Federal agencies must make electronic documents, including slide decks and
 reports, conform to the Section 508 standards (which incorporate WCAG 2.0
 Level AA). Accessible decks also read better for everyone. Apply these
-checks to every deck and report you build for Nick.
+checks to every deck and report you build.
 
 ## Slides
 

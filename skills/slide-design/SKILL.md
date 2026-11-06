@@ -1,6 +1,6 @@
 ---
 name: "slide-design"
-description: Visual design and data visualization rules for every slide, deck, read-ahead, chart, map, table, dashboard, and figure Nick makes, presented or read, in decks, reports, memos, or docs. Always uses the NTIA template and brand and marks everything DRAFT//PRE-DECISIONAL. Covers ghost decks, layout, NTIA color, number consistency, a chart-type catalog, annotation, uncertainty, maps, tables, decluttering, honest scales, Section 508, and turning technical results (dB, CDFs, coverage maps, Monte Carlo output) into visuals non-technical leaders get at a glance. Use it whenever you build or revise slides, a deck, a read-ahead, a chart, plot, figure, map, table, tracker, or diagram, or when Nick asks to make a visual clearer or better, even if he doesn't mention design. Load it with dataviz for any chart; where they conflict, this skill wins. Works alongside ntia-talking-deck (template mechanics), made-to-stick-briefing (message), and matlab-builtin-first (plot code).
+description: Visual design and data visualization rules for every slide, deck, read-ahead, chart, map, table, dashboard, and figure the user makes, presented or read, in decks, reports, memos, or docs. Always uses the NTIA template and brand and marks everything DRAFT//PRE-DECISIONAL. Covers ghost decks, layout, NTIA color, number consistency, a chart-type catalog, annotation, uncertainty, maps, tables, decluttering, honest scales, Section 508, and turning technical results (dB, CDFs, coverage maps, Monte Carlo output) into visuals non-technical leaders get at a glance. Use it whenever you build or revise slides, a deck, a read-ahead, a chart, plot, figure, map, table, tracker, or diagram, or when the user asks to make a visual clearer or better, even if the user doesn't mention design. Load it with dataviz for any chart; where they conflict, this skill wins. Works alongside ntia-talking-deck (template mechanics), made-to-stick-briefing (message), and matlab-builtin-first (plot code).
 ---
 
 # Slide design
@@ -21,15 +21,15 @@ and how it shows data. Other skills keep their own jobs:
 
 ## NTIA template and brand
 
-Everything Nick makes uses the NTIA template and the NTIA brand, with no
+Everything the user makes uses the NTIA template and the NTIA brand, with no
 exceptions: leadership briefings, conference talks, read-aheads, report
 figures, and one-off charts.
 
 - **Decks** are built on `DOC NTIA_Style Guide July 2026.pptx`, following
   "NTIA template" in `ntia-talking-deck` (get the binary, use the template
   map, keep the master, layouts, theme, logo, and footer intact). Never build
-  a deck off-template. If the template binary isn't available, ask Nick to
-  attach it and stop until he does. This rule outranks the build-without-
+  a deck off-template. If the template binary isn't available, ask the user to
+  attach it and stop until the user does. This rule outranks the build-without-
   waiting rule for one- or two-slide requests: any slide needs the template.
   A standalone figure (an image for a report or an email) doesn't.
 - **Colors** come from the NTIA palette in `references/color.md`: mid gray
@@ -62,8 +62,8 @@ figures, and one-off charts.
 - **Reports, memos, and docs:** in the header and the footer of every page.
 - **Standalone figures** sent on their own (for example, a PNG in an email):
   add the marking in small type at the top of the image.
-- Keep the marking even when Nick calls a product final. Remove it only if
-  he explicitly says to remove the marking from that product.
+- Keep the marking even when the user calls a product final. Remove it only if
+  the user explicitly says to remove the marking from that product.
 - Don't add CUI or classification markings.
 - This rule supersedes the "PRE-DECISIONAL" footer rule in
   `ntia-talking-deck`, including its rule to drop the marking when a deck is
@@ -75,14 +75,14 @@ figures, and one-off charts.
 
 When you make a chart, load both this skill and `dataviz`. Use `dataviz` for
 its methods, such as validating a palette or speccing marks. Where the two
-conflict, this skill takes precedence for Nick's work. For example, this
+conflict, this skill takes precedence for the user's work. For example, this
 skill's gray-plus-one-accent approach, NTIA palette, native PowerPoint
 charts, audience defaults, and Section 508 rules win over `dataviz`
 defaults.
 
 ## Defaults
 
-Apply these unless Nick says otherwise:
+Apply these unless the user says otherwise:
 
 - **Audience:** non-technical decision makers, such as political appointees
   and senior leadership. They're smart and busy, and they aren't engineers.
@@ -90,8 +90,8 @@ Apply these unless Nick says otherwise:
 - **Mode:** presented, with low text density. The slide supports the
   speaker; it doesn't replace the speaker. Put detail in speaker notes or
   backup slides.
-- **Read-ahead mode:** when Nick says the deck is a read-ahead, pre-read, or
-  leave-behind, or will be sent without him presenting, follow
+- **Read-ahead mode:** when the user says the deck is a read-ahead, pre-read, or
+  leave-behind, or will be sent without the user presenting, follow
   `references/read-ahead.md`. Pages carry more explanation but keep the same
   visual rules. If the mode is unclear, ask.
 - **Accessibility:** every deck and report meets Section 508. See
@@ -112,7 +112,7 @@ Follow these steps in order. Most bad slides come from skipping step 1.
    or figure title. If you can't write it, the slide doesn't have a point
    yet, so don't design it. For a deck of three or more slides, write the
    ghost deck (all headlines in order, with the evidence for each), check it
-   with the horizontal logic test, and get Nick's approval before building.
+   with the horizontal logic test, and get the user's approval before building.
    For one or two slides, or a single figure, state the headline in your
    reply and build without waiting. See `references/storyline.md`.
 2. **Pick the visual that proves the headline.** Ask what the audience must
@@ -216,7 +216,7 @@ the speaker notes, in the read-ahead, and in the report.
   risk: $4.213B (model run 2026-10-21) → about $4 billion." Use that
   value and rounding everywhere. Put the ledger in the speaker notes of the
   first backup slide; if there's no backup, in the notes of the last slide;
-  in a report, in the methods appendix. Also give it to Nick with the
+  in a report, in the methods appendix. Also give it to the user with the
   deliverable.
 - **Same value, not same glyph.** NTIA style spells out zero through nine in
   running text and headlines ("four in 1,000"), while chart labels use
@@ -316,8 +316,8 @@ Read only the files you need for the task:
 | File | Read when |
 |---|---|
 | `references/storyline.md` | Planning a deck: ghost deck, horizontal logic, structure, backup slides |
-| `references/read-ahead.md` | The deck will be read without Nick presenting it |
-| `references/chart-types.md` | Choosing a chart type, or Nick asks what charts to use |
+| `references/read-ahead.md` | The deck will be read without the user presenting it |
+| `references/chart-types.md` | Choosing a chart type, or the user asks what charts to use |
 | `references/layout-and-typography.md` | Laying out a slide or figure, and setting sizes and fonts |
 | `references/color.md` | Choosing any color or palette |
 | `references/decluttering.md` | Cleaning up a default PowerPoint, Excel, MATLAB, or matplotlib chart |

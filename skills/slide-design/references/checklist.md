@@ -82,7 +82,7 @@ images and look at them; don't review from code or XML alone. Fix every
 - [ ] The file name is descriptive, and the Accessibility Checker shows no
       errors.
 
-## Nick's standing rules
+## Standing rules
 
 - [ ] Icons and diagrams use native shapes only.
 - [ ] No animation or transitions.

@@ -1,6 +1,6 @@
 # Native shapes, icons, and diagrams
 
-Nick wants every icon and diagram built from native PowerPoint shapes. Don't
+Build every icon and diagram from native PowerPoint shapes. Don't
 insert pictures, SVGs, emoji, or icon-set graphics. Native shapes stay
 editable, scale cleanly, pick up theme colors, and don't break when the deck
 moves between machines.

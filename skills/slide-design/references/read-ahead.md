@@ -7,16 +7,16 @@ that pair words and images so the reader can follow them alone. Edward Tufte
 makes the same argument for serious talks: give people a handout dense enough
 to study.
 
-Use read-ahead mode when Nick says the deck is a read-ahead, a leave-behind,
-a pre-read, or will be sent without him presenting it. Otherwise, use
+Use read-ahead mode when the user says the deck is a read-ahead, a leave-behind,
+a pre-read, or will be sent without the user presenting it. Otherwise, use
 presented mode (the default).
 
 Read-ahead mode has its own type scale (below). Use only those sizes; the
 presented-mode scale in `layout-and-typography.md` doesn't apply.
 
-**Page count:** when Nick names a number of pages, it includes every page.
+**Page count:** when the user names a number of pages, it includes every page.
 The first page is the executive summary, which carries the title and the
-ask; don't add a separate title slide unless he asks for one.
+ask; don't add a separate title slide unless the user asks for one.
 
 ## What changes
 
@@ -55,8 +55,8 @@ ask; don't add a separate title slide unless he asks for one.
 - **Annotated chart:** a full-width chart with three to five callouts that
   walk the reader through it.
 - **Decision page:** options in a simple table and one sentence per option
-  on the trade-off. Highlight a recommended option only if Nick gave one.
-  If he didn't, highlight nothing, state the decision needed, and put
+  on the trade-off. Highlight a recommended option only if the user gave one.
+  If the user didn't, highlight nothing, state the decision needed, and put
   `[CONFIRM: recommendation]` in the notes.
 
 ## Writing on the page
@@ -71,7 +71,7 @@ ask; don't add a separate title slide unless he asks for one.
 
 Nobody presents a read-ahead, so the speaker notes don't hold a script. Use
 them for sources, caveats too detailed for the page, and, on the last page,
-the numbers ledger. Also deliver the ledger to Nick with the deck.
+the numbers ledger. Also deliver the ledger to the user with the deck.
 
 ## Uncertainty without ranges
 

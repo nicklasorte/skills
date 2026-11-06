@@ -33,7 +33,7 @@ show.
 5. We recommend option B. — options table, B highlighted
 ```
 
-For decks of three or more slides, show the ghost deck to Nick for approval
+For decks of three or more slides, show the ghost deck to the user for approval
 before you build the slides. Fixing order and headlines at this stage is
 cheap; fixing them after design isn't. When `ntia-talking-deck` is also in
 use, its outline table and confirmation gate serve as the ghost deck; don't
@@ -61,7 +61,7 @@ makes that point, or cut it.
 
 | Situation | Structure |
 |---|---|
-| Decision briefing for leadership | **BLUF.** Bottom line and the ask first, then the evidence, then options, then next steps. If Nick hasn't given a recommendation, present the options neutrally and mark `[CONFIRM: recommendation]` |
+| Decision briefing for leadership | **BLUF.** Bottom line and the ask first, then the evidence, then options, then next steps. If the user hasn't given a recommendation, present the options neutrally and mark `[CONFIRM: recommendation]` |
 | Update or status | **Situation, complication, resolution.** What's true, what changed, what we're doing |
 | Persuasive talk or keynote | **Sparkline** (Nancy Duarte). Alternate "what is" with "what could be" three to five times, then end with the call to action |
 | Technical results | **Question, method in one slide, results, implications.** Put the method detail in backup |

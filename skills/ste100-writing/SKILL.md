@@ -1,18 +1,18 @@
 ---
 name: "ste100-writing"
-description: "Write, rewrite, or audit technical text in ASD-STE100 Simplified Technical English (Issue 9). Use when Nick asks for STE, ASD-STE100, controlled language, or procedures that can't be misread."
+description: "Write, rewrite, or audit technical text in ASD-STE100 Simplified Technical English (Issue 9). Use when the user asks for STE, ASD-STE100, controlled language, or procedures that can't be misread."
 ---
 
 # ASD-STE100 Simplified Technical English
 
 ASD-STE100 is a controlled language for technical documentation. Issue 9 (January 2025) has 53 writing rules in 9 sections (Part 1) and a dictionary of about 900 approved words (Part 2).
 
-This skill paraphrases the rules. It doesn't reproduce the official text or dictionary. ASD owns the copyright and the trademark. The free official copy is at https://www.asd-ste100.org (request form). For an authoritative word ruling, tell Nick to check the dictionary.
+This skill paraphrases the rules. It doesn't reproduce the official text or dictionary. ASD owns the copyright and the trademark. The free official copy is at https://www.asd-ste100.org (request form). For an authoritative word ruling, tell the user to check the dictionary.
 
 ## When this skill governs
 
-- Use STE when Nick names STE, ASD-STE100, or controlled language.
-- Use STE for procedures, checklists, test steps, and safety instructions he wants to be unambiguous.
+- Use STE when the user names STE, ASD-STE100, or controlled language.
+- Use STE for procedures, checklists, test steps, and safety instructions the user wants to be unambiguous.
 - Where STE and the google-developer-writing-style skill conflict, STE governs for that text. Keep Google style for formatting that STE doesn't address (headings, code font, link text).
 
 ## Modes
@@ -121,9 +121,9 @@ Run this checklist. Fix each item.
 
 ## Output
 
-- **Rewrite:** Return the STE text first. Then give a short list of the main changes, only if Nick asks or the change affects meaning.
+- **Rewrite:** Return the STE text first. Then give a short list of the main changes, only if the user asks or the change affects meaning.
 - **Audit:** Return a table with columns Location, Rule, Problem, and Fix.
-- If a rewrite changes the technical meaning, stop and ask Nick before you finalize it.
+- If a rewrite changes the technical meaning, stop and ask the user before you finalize it.
 
 ## Disclaimer
 

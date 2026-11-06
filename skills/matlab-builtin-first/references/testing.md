@@ -1,6 +1,6 @@
 # Writing tests
 
-Follows the MathWorks unit testing framework guidance and `matlab.unittest` conventions, adapted to Nick's repos. Every pattern here was run in R2025b.
+Follows the MathWorks unit testing framework guidance and `matlab.unittest` conventions, adapted to snake_case repositories. Every pattern here was run in R2025b.
 
 ## Contents
 
@@ -26,7 +26,7 @@ Follow the repo's existing convention first:
 - **`imt-matlab`** uses self-test functions named `test_<function>.m` that return results, run by `run_all_tests.m`. Write new tests in that style and add the new file to the list in `run_all_tests.m`.
 - **Elsewhere** (`General_Movelist`, `Basic_Functions`, and new repos), use a class-based test, `classdef test_<function_name> < matlab.unittest.TestCase`, in a file named `test_<function_name>.m`, beside the function or in the repo's `tests/` folder if it has one.
 
-`runtests` and `testsuite` find any file whose name starts or ends with `test`, so the `test_` prefix matches Nick's snake_case and is discovered without configuration. MathWorks' examples use a `Test.m` suffix; either works.
+`runtests` and `testsuite` find any file whose name starts or ends with `test`, so the `test_` prefix matches snake_case naming and is discovered without configuration. MathWorks' examples use a `Test.m` suffix; either works.
 
 Class-based tests are the default because they add parameterized tests, fixtures, and tags. Use function-based tests (`functiontests(localfunctions)`) only for a trivial function, and script-based tests never.
 
