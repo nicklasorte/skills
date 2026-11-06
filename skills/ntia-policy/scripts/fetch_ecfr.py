@@ -34,7 +34,7 @@ from pathlib import Path
 
 API = "https://www.ecfr.gov/api/versioner/v1"
 WEB = "https://www.ecfr.gov"
-USER_AGENT = "ntia-policy-research/1.0 (eCFR fetch script)"
+USER_AGENT = "ntia-policy/1.0 (eCFR fetch script)"
 
 
 def get(url, retries=5):

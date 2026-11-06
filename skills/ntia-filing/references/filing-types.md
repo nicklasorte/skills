@@ -1,6 +1,6 @@
 # Filing types: waivers, reconsideration, letters, and rule text
 
-Part of the ntia-fcc-filing-voice skill. Read the section for the filing type you're drafting. Section numbers match the SKILL.md contents list.
+Part of the ntia-filing skill. Read the section for the filing type you're drafting. Section numbers match the SKILL.md contents list.
 
 ## 7. Waivers
 

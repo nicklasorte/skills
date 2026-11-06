@@ -13,7 +13,7 @@ This skill combines five things:
 
 - **Assertion-evidence slide design**: a sentence headline that states the takeaway, supported by visual evidence instead of bullets. Controlled studies show better comprehension, fewer misconceptions, and stronger delayed recall than default topic-and-bullets slides.
 - **The `made-to-stick-briefing` skill**: decides *what* each slide says.
-- **The `google-dev-docs-style` skill**: decides *how* each headline and note is worded.
+- **The `google-developer-writing-style` skill**: decides *how* each headline and note is worded.
 - **The NTIA template and brand and style guide**: decide colors, fonts, logo use, and NTIA writing conventions. See "NTIA template" here and "NTIA brand and style rules" in `references/brand-and-design.md`.
 - **The modern look**: decides composition, type scale, icons, and chart style, drawn from great design outside slides. See "Modern look" in `references/brand-and-design.md`.
 
@@ -26,7 +26,7 @@ Read these before the steps that use them:
 | Step 1 | `made-to-stick-briefing` SKILL.md and its `references/framework.md` |
 | Step 5 | `pptx` SKILL.md (build mechanics, validation, and QA) |
 | Step 5 | `claude/ntia-template-map.md` in the project and `references/brand-and-design.md` in this skill |
-| Step 6 | `google-dev-docs-style` SKILL.md core rules |
+| Step 6 | `google-developer-writing-style` SKILL.md core rules |
 
 Source files in the project:
 
@@ -100,7 +100,7 @@ If either point fails, stop. Tell Nick which point failed and what you saw. Don'
 
 #### Inputs from other skills
 
-The source can be output from `ntia-policy-research`, such as a decision memo, information memo, summary, or review table. Keep its facts, citations, `[CITE]` and `[CONFIRM]` placeholders, and "as of" date. Map a decision memo to the decision-deck spine in step 2.
+The source can be output from `ntia-policy`, such as a decision memo, information memo, summary, or review table. Keep its facts, citations, `[CITE]` and `[CONFIRM]` placeholders, and "as of" date. Map a decision memo to the decision-deck spine in step 2.
 
 Fill the Made to Stick Sticky Brief canvas. Mark anything the source can't support as **GAP**. Never invent numbers, stakes, or examples.
 
@@ -121,7 +121,7 @@ Use this default spine, and adjust it to the content:
 6. The ask: what, who, and by when
 7. Appendix: method, full tables, and technical detail for Q&A only
 
-For a decision deck, follow the same order as the `ntia-policy-research` decision memo:
+For a decision deck, follow the same order as the `ntia-policy` decision memo:
 
 1. Title
 2. Decision requested and bottom line
@@ -169,7 +169,7 @@ Build the deck with the `python-pptx` mechanics in the `pptx` skill, on a copy o
 
 ### 6. Style pass
 
-Apply the `google-dev-docs-style` core rules to every headline and note:
+Apply the `google-developer-writing-style` core rules to every headline and note:
 
 - Sentence case, active voice, present tense, and no end punctuation on headlines.
 - Spell out abbreviations on first use in the deck and again in the notes.
@@ -177,7 +177,7 @@ Apply the `google-dev-docs-style` core rules to every headline and note:
 
 Then apply "NTIA writing conventions" above.
 
-NTIA conventions override Google style on these points, matching `ntia-fcc-filing-voice`:
+NTIA conventions override Google style on these points, matching `ntia-filing`:
 
 - **Frequency ranges**: hyphen, no spaces, unit once: "7125-7400 MHz," "3.98-4.2 GHz."
 - **Amounts of spectrum**: spell out the unit: "100 megahertz."

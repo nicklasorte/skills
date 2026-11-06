@@ -1,6 +1,6 @@
 # Exemplar bank and worked example
 
-Part of the ntia-fcc-filing-voice skill. Read these to calibrate voice before a first draft or when a rewrite feels off.
+Part of the ntia-filing skill. Read these to calibrate voice before a first draft or when a rewrite feels off.
 
 ## 17. Exemplar bank
 

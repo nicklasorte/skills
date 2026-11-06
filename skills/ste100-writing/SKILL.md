@@ -13,7 +13,7 @@ This skill paraphrases the rules. It doesn't reproduce the official text or dict
 
 - Use STE when Nick names STE, ASD-STE100, or controlled language.
 - Use STE for procedures, checklists, test steps, and safety instructions he wants to be unambiguous.
-- Where STE and the google-dev-docs-style skill conflict, STE governs for that text. Keep Google style for formatting that STE doesn't address (headings, code font, link text).
+- Where STE and the google-developer-writing-style skill conflict, STE governs for that text. Keep Google style for formatting that STE doesn't address (headings, code font, link text).
 
 ## Modes
 

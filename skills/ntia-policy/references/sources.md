@@ -60,4 +60,4 @@ Known behavior:
 | NTIA Manual | NTIA, Manual of Regulations and Procedures for Federal Radio Frequency Management, sec. 4.1.3 (January 2021 ed., rev. January 2023) |
 | NTIA report | NTIA, *Title*, NTIA Report XX-XXX, at X (Month YYYY) |
 
-For FCC filings, use the full citation forms in `ntia-fcc-filing-voice` instead.
+For FCC filings, use the full citation forms in `ntia-filing` instead.

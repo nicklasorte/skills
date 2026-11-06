@@ -1,6 +1,6 @@
 # Citations, full filings, and procedure
 
-Part of the ntia-fcc-filing-voice skill. Read section 11 when drafting footnotes and section 12 in Assemble mode. Section numbers match the SKILL.md contents list.
+Part of the ntia-filing skill. Read section 11 when drafting footnotes and section 12 in Assemble mode. Section numbers match the SKILL.md contents list.
 
 ## 11. Citations
 

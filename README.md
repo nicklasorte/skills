@@ -7,23 +7,20 @@ Portable, independent AI-agent skills for spectrum engineering, regulatory writi
 | Skill | Use |
 | --- | --- |
 | [Comment Resolution](skills/comment-resolution/SKILL.md) | Agency comment adjudication and report-ready changes |
-| [NTIA Policy](skills/ntia-policy/SKILL.md) | Policy and regulatory research and drafting |
+| [NTIA Policy](skills/ntia-policy/SKILL.md) | Policy briefs, decision memos, regulation summaries, and rule reviews |
 | [NTIA-Review](skills/ntia-review/SKILL.md) | Evidence-traceable technical and policy reviews |
 | [NTIA-Meeting](skills/ntia-meeting/SKILL.md) | Minutes, decisions, actions, and handoffs |
 | [NTIA Quality Gate](skills/ntia-quality-gate/SKILL.md) | Advisory readiness checks |
-| [NTIA-Filing](skills/ntia-filing/SKILL.md) | FCC filing preparation and validation |
+| [NTIA-Filing](skills/ntia-filing/SKILL.md) | FCC filing drafting, review, and validation in NTIA's voice |
 | [MATLAB2Paper](skills/matlab2paper/SKILL.md) | Reproducible analysis-to-paper traceability |
-| [Google Developer Writing Style](skills/google-developer-writing-style/SKILL.md) | Clear, concise, audience-first technical and regulatory writing |
+| [Google Developer Writing Style](skills/google-developer-writing-style/SKILL.md) | Google developer documentation style for technical and regulatory writing |
 | [Skill Router](skills/skill-router/SKILL.md) | Coordinate conditional handoffs across specialist skills |
-| [NTIA Policy Research](skills/ntia-policy-research/SKILL.md) | Policy briefs, decision memos, regulation summaries, and rule reviews |
-| [NTIA FCC Filing Voice](skills/ntia-fcc-filing-voice/SKILL.md) | Draft and review NTIA filings to the FCC in NTIA's voice |
 | [NTIA Talking Deck](skills/ntia-talking-deck/SKILL.md) | Short talking decks for non-technical audiences |
 | [Slide Design](skills/slide-design/SKILL.md) | Slide, chart, map, and table design rules for briefings |
 | [Made to Stick Briefing](skills/made-to-stick-briefing/SKILL.md) | Turn technical analysis into briefings non-experts remember |
 | [MATLAB Built-in First](skills/matlab-builtin-first/SKILL.md) | Prefer verified built-in MATLAB functions over custom code |
 | [Oxford Tutorial Lessons](skills/oxford-tutorial-lessons/SKILL.md) | Weekly question, short paper, and Socratic review format |
 | [STE100 Writing](skills/ste100-writing/SKILL.md) | Write and audit ASD-STE100 Simplified Technical English |
-| [Google Dev Docs Style](skills/google-dev-docs-style/SKILL.md) | Apply the Google developer documentation style guide |
 
 ## Structure
 

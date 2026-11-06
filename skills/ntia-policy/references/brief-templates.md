@@ -112,4 +112,4 @@ Sources
 
 - Use numbered footnotes in memos and a "Sources" list in one-page briefs.
 - Use the citation formats in `references/sources.md`.
-- Every number in the memo needs a footnote, unless Nick supplied it as his own analysis. Label Nick's analysis as such.
+- Every number in the memo needs a footnote, unless the user supplied it as their own analysis. Label the user's analysis as such.
