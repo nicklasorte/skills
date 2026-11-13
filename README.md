@@ -21,6 +21,7 @@ Portable, independent AI-agent skills for spectrum engineering, regulatory writi
 | [MATLAB Built-in First](skills/matlab-builtin-first/SKILL.md) | Prefer verified built-in MATLAB functions over custom code |
 | [Oxford Tutorial Lessons](skills/oxford-tutorial-lessons/SKILL.md) | Weekly question, short paper, and Socratic review format |
 | [STE100 Writing](skills/ste100-writing/SKILL.md) | Write and audit ASD-STE100 Simplified Technical English |
+| [Ambition Upgrade](skills/ambition-upgrade/SKILL.md) | Raise the altitude, depth, and range of substantive work requests, then run the upgrade |
 
 The catalog contains **15 skills**: 14 specialists and one router. Install only the specialists relevant to your work.
 
